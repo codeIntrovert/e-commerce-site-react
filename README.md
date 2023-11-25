@@ -1,4 +1,4 @@
-# 🛒 My E-Commerce React App
+# 🛒 E-Commerce React App
 
 Welcome to my E-Commerce React app! This project was created as part of my learning journey with React.js. It's a dummy website, so no real money transactions will take place. Feel free to explore the code and use it as a reference for your own projects.
 
@@ -35,7 +35,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/e-commerce-react-app.git
+   git clone https://github.com/codeIntrovert/e-commerce-react-app.git
    ```
 2. Navigate to the project repository:
    ```bash
@@ -47,9 +47,9 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
    ```
 ### 🎮 Usage
 1. Start the development server:
-  ```bash
-  npm start
-  ```
+    ```bash
+    npm start
+    ```
 2. Open your browser and go to http://localhost:3000.
 
 3. Explore the dummy e-commerce website and interact with its features.

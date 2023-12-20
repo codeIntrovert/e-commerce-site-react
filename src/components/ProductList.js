@@ -1,28 +1,36 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import Product from "./Product";
-import Title from "./Title";
 import { ProductConsumer } from "../context";
 
 export default class ProductList extends Component {
-
   render() {
     return (
-      <React.Fragment>
-        <div className="py-5">
-          <div className="container">
-          <Title name="our" title="products"/>
-            <div className="row">
+      <div class="most-popular">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="heading-section">
+              <h4>
+                # <em>Latest In</em> Tech
+              </h4>
+            </div>
+            <div class="row">
+              {/* CARD MACRO HERE */}
               <ProductConsumer>
-                {value => {
-                  return value.products.map( product => {
-                    return <Product key={product.id} product={product} />
-                  })
+                {(value) => {
+                  return value.products.map((product) => {
+                    return <Product key={product.id} product={product} />;
+                  });
                 }}
               </ProductConsumer>
+              <div class="col-lg-12">
+                <div class="main-button">
+                  <a href="/Browse">Explore Now!</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </React.Fragment>
-    )
+      </div>
+    );
   }
 }

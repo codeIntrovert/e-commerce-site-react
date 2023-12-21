@@ -749,14 +749,16 @@ section {
   }
 }
 .main-banner {
-  background: linear-gradient(310deg, rgb(83, 141, 255) 0%, #b2dcfc 100%);
-  background-position: center center;
-  background-size: cover;
+  position: relative;
+  background-image: url("../images/heroClip.png");
+  background-repeat: no-repeat;
+  background-position: right center; /* Changed to right center */
+  background-size: 60% auto; /* Set background size to 75% width and auto height */
   min-height: 380px;
   border-radius: 23px;
   padding: 80px 60px;
+  background-color: rgb(196, 197, 199);
 }
-
 .main-banner h6 {
   font-size: 20px;
   color: #00000d;
@@ -1074,7 +1076,7 @@ body {
   .background-header {
     display: inline-block;
   }
-  .header-area .main-nav #search {
+  .header-area .main-nav {
     display: none;
   }
   .heading-section h4 {
@@ -1098,6 +1100,17 @@ body {
   .main-profile .main-info {
     margin: 45px 0px;
   }
+  .main-banner {
+    position: relative;
+    background-image: url("../images/heroClip.png");
+    background-repeat: no-repeat;
+    background-position: center center; /* Changed to right center */
+    background-size: 60% auto; /* Set background size to 75% width and auto height */
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+    background-color: rgb(218, 218, 218);
+  }
 }
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
@@ -1110,5 +1123,16 @@ body {
   }
   .gaming-library .item ul li {
     width: 16%;
+  }
+  .main-banner {
+    position: relative;
+    background-image: url("../images/heroClip.png");
+    background-repeat: no-repeat;
+    background-position: center center; /* Changed to right center */
+    background-size: 60% auto; /* Set background size to 75% width and auto height */
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+    background-color: rgb(218, 218, 218);
   }
 } /*# sourceMappingURL=light_theme.css.map */

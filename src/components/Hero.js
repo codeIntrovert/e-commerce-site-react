@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="main-banner">
@@ -14,7 +14,7 @@ const Hero = () => {
               </em>
             </h4>
             <div className="main-button">
-              <a href="/browse">Browse Now</a>
+              <Link to="/browse">Browse Now</Link>
             </div>
           </div>
         </div>

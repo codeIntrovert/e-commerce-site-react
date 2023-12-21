@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Product from "./Product";
 import { ProductConsumer } from "../context";
+import { Link } from "react-router-dom";
 
 export default class ProductList extends Component {
   render() {
@@ -24,7 +25,7 @@ export default class ProductList extends Component {
               </ProductConsumer>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="/Browse">Explore Now!</a>
+                  <Link to="/browse">Explore Now!</Link>
                 </div>
               </div>
             </div>

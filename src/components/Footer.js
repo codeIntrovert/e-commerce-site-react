@@ -1,6 +1,9 @@
 import React from "react";
 import FooterLogo from "../assets/images/logo.png";
 const Footer = () => {
+  const fallbackURL = "https://github.com/codeIntrovert";
+  const instagramURL = "https://www.instagram.com/introvertcoder/";
+  const youtubeURL = "https://www.youtube.com/introvertcoder";
   return (
     <footer className="bg-primary-gradient">
       <div className="container py-4 py-lg-5">
@@ -11,15 +14,13 @@ const Footer = () => {
             </h3>
             <ul className="list-unstyled dim">
               <li>
-                <a href="https://www.instagram.com/introvertcoder/">
-                  Instagram
-                </a>
+                <a href={instagramURL}>Instagram</a>
               </li>
               <li>
-                <a href="#">Twitter</a>
+                <a href={fallbackURL}>Twitter</a>
               </li>
               <li>
-                <a href="https://www.youtube.com/introvertcoder">Youtube</a>
+                <a href={youtubeURL}>Youtube</a>
               </li>
             </ul>
           </div>
@@ -29,7 +30,7 @@ const Footer = () => {
             </h3>
             <ul className="list-unstyled dim">
               <li>
-                <a href="https://github.com/codeIntrovert">Company</a>
+                <a href={fallbackURL}>Company</a>
               </li>
               <li>
                 <a href="https://github.com/codeIntrovert/codeColts/graphs/contributors">
@@ -49,13 +50,13 @@ const Footer = () => {
             </h3>
             <ul className="list-unstyled dim">
               <li>
-                <a href="#">Portfolio</a>
+                <a href={fallbackURL}>Portfolio</a>
               </li>
               <li>
-                <a href="#">Certify.io</a>
+                <a href={fallbackURL}>Certify.io</a>
               </li>
               <li>
-                <a href="#">Finances.io</a>
+                <a href={fallbackURL}>Finances.io</a>
               </li>
             </ul>
           </div>
@@ -70,8 +71,8 @@ const Footer = () => {
         <hr />
         <div className="text-muted d-flex justify-content-between align-items-center pt-3">
           <p className="mb-0">
-            Copyright © 2023 The <a href="#">CodeColts</a> Company. All rights
-            reserved
+            Copyright © 2023 The <a href={fallbackURL}>CodeColts</a> Company.
+            All rights reserved
           </p>
         </div>
       </div>

@@ -1,4 +1,3 @@
-import { bottom } from "@popperjs/core";
 import React from "react";
 
 export default function EmptyCart() {

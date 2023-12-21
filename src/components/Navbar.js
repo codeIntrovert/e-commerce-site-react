@@ -12,7 +12,7 @@ function Navbar() {
             <nav className="main-nav">
               {/* ***** Logo Start ***** */}
               <Link to="/">
-                <a className="logo">
+                <a href="/" className="logo">
                   <img src={logoImage} alt="Logo" className="logo" />
                 </a>
               </Link>

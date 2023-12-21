@@ -1,5 +1,5 @@
 import React from "react";
-
+import FooterLogo from "../assets/images/logo.png";
 const Footer = () => {
   return (
     <footer className="bg-primary-gradient">
@@ -37,7 +37,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/codeIntrovert/codeColts/blob/main/LEGAL">
+                <a href="https://github.com/codeIntrovert/codeColts/blob/main/LEGAL.md">
                   Legal
                 </a>
               </li>
@@ -62,10 +62,7 @@ const Footer = () => {
           <div className="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
             <div className="fw-bold d-flex align-items-center mb-2">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary d-flex justify-content-center align-items-center bs-icon me-2">
-                <img
-                  src={process.env.PUBLIC_URL + "/assets/images/logo.png"}
-                  alt=""
-                />
+                <img src={FooterLogo} alt="" />
               </span>
             </div>
           </div>

@@ -6,11 +6,11 @@ const Hero = () => {
       <div className="row">
         <div className="col-lg-7">
           <div className="header-text">
-            <h6>Welcome To CodeColts</h6>
+            <h6>Welcome To CodeColts Store!</h6>
             <h4>
-              Excel in the Art of{" "}
+              Biggest Hub of Latest{" "}
               <em>
-                <span>Coding</span>
+                <span>TECH</span>
               </em>
             </h4>
             <div className="main-button">
